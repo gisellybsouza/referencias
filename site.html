@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Livro</title>
+</head>
+<body>
+  <h1>Gerador de Referências Bibliográficas</h1>
+  <h2>Obtenha uma referência em ABNT em segundos</h2>
+  <p>É só preencher alguns dados da referência e pronto, depois é só copiar!</p>
+  <p>Antes de tudo, precisamos saber de qual fonte você precisa:</p>
+  <hr>
+  <h3>
+    <a href="livro.html">Livro</a> ::
+    <i><a href="site.html">Site</a></i> ::
+    <a href="artgrevista.html">Artigo de Revista</a> ::
+    <a href="imagens.html">Imangens</a> ::
+    <a href="artgjornal.html">Artigo de Jornal</a>
+  </h3>
+  <hr>
+  <form action="/pagina-processa-dados-do-form" method="post">
+    <h4>Nome do autor:</h4> <input type="text" name="autor" id="autor">
+    <h4>Sobrenome do autor:</h4> <input type="text" name="sobrenome" id="sobrenome">
+    <h4>Título:</h4> <input type="text" name="titulo" id="titulo">
+    <h4>Nome do site:</h4> <input type="text" name="site" id="site">
+    <h4>Editora:</h4> <input type="text" name="editora" id="editora">
+    <h4>Ano da publicação:</h4> <input type="text" name="ano" id="ano">
+    <h4>Disponível em:</h4> <input type="url" name="site" id="site">
+    <h4>Acesso em:</h4> <input type="date" name="acesso" id="acesso">
+    <button type="submit">Gerar referência</button>
+  </form>
+</body>
+</html>
